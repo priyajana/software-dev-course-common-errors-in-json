@@ -48,7 +48,7 @@ const invalidBookingJSON =
 {
   "hotelName": "Grand City Hotel",
   "checkInDate": "2024-05-15",
-  //Missing comma above
+  //Missing comma above. As JSON is a strictly formatted object notation, making mistakes like the above will make the entire object invalid.
   "checkOutDate": "2024-05-20",
   "guests": [
     {
